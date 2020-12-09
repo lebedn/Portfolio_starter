@@ -1,0 +1,23 @@
+.resume {
+    padding-top: 50px;
+    &__title {
+        text-align: center;
+    }
+    &_subtitle {
+        position: relative;
+        color: #000;
+        text-align: center;
+        @include before_circle;
+        &:before {
+            top: -6;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__wrapper {
+        padding: 60px 65px 0 65px;
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        column-gap: 143px;
+    }
+}
