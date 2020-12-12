@@ -23,4 +23,18 @@
         line-height: 60px;
         color: #ffffff;
     }
+    &__section-title {
+        color: #000;
+        position: relative;
+        text-align: center;
+        @include before_circle;
+        &:before {
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
 }
