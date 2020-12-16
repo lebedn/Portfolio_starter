@@ -1,14 +1,11 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/main_bg.jpg') no-repeat 10%/cover;
-    padding-top: 200px;
-    &__wrapper {
-        margin-left: 400px;
-    }
+    background: url('../img/bg 1.jpg') center (center / cover) no-repeat;
+    padding-top: 230px;
     &__title {
         margin-top: 10px;
-        width: 540px;
+        width: 600px;
     }
     &_subtitle {
         position: relative;
